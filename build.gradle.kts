@@ -37,3 +37,4 @@ buildConfigKotlin {
         buildConfig(name = "okhttpVersion", value = Libs.okhttpVersion)
     })
 }
+apply("https://raw.githubusercontent.com/sky-uk/gradle-maven-plugin/1.0.4/gradle-mavenizer.gradle")
